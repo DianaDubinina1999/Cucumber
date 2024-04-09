@@ -3,7 +3,6 @@ package steps;
 import io.cucumber.java.ru.Дано;
 
 import java.sql.*;
-
 public class ProductPageActionsSteps {
 
 
