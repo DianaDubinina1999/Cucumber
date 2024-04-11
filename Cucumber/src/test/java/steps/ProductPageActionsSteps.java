@@ -16,7 +16,7 @@ public class ProductPageActionsSteps {
 
     @Дано("заходим на сайт {string}, вводим логин {string} и пароль {string}")
     public void заходимНаСайтВводимЛогинИПароль (String url, String user, String pass) throws SQLException {
-        Connection connection = DriverManager.getConnection
+        DriverManager.getConnection
                 (url, user, pass);
 
 
