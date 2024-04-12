@@ -16,7 +16,7 @@ public class MyStepdefs {
     public static void MyStepdefs () {
         System.setProperty ("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         driver = new ChromeDriver ();
-        driver.manage ().timeouts ().implicitlyWait (10, TimeUnit.SECONDS);
+        driver.manage ().timeouts ().implicitlyWait (1, TimeUnit.SECONDS);
         driver.manage ().window ().maximize ();
         driver.get ("http://localhost:8080");
         driver.findElement(By.id("navbarDropdown")).click();
@@ -107,7 +107,7 @@ public class MyStepdefs {
         driver.findElement(By.id("navbarDropdown")).click();
         driver.findElement(By.id("reset")).click();
         driver.navigate().refresh();
-        driver.manage ().timeouts ().implicitlyWait (10, TimeUnit.SECONDS);
+        driver.manage ().timeouts ().implicitlyWait (1, TimeUnit.SECONDS);
     }
 
     @И("проверяем, что продукт {string} был удален")
