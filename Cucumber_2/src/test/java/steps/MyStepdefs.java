@@ -104,18 +104,20 @@ public class MyStepdefs {
 
     @И ("удаляем все добавленные товары")
     public void удаляемВсеДобавленныеТовары () {
-        driver.manage ().timeouts ().implicitlyWait (1, TimeUnit.SECONDS);
+
         driver.findElement(By.id("navbarDropdown")).click();
         driver.findElement(By.id("reset")).click();
         driver.navigate().refresh();
-        driver.manage ().timeouts ().implicitlyWait (10, TimeUnit.SECONDS);
+
     }
 
     @И("проверяем, что продукт {string} был удален")
     public void проверяемЧтоПродуктБылУдален (String arg0) {
+        driver.manage ().timeouts ().implicitlyWait (1, TimeUnit.SECONDS);
         if (!driver.findElements (By.xpath ("//*[contains(text(),'" + arg0 + "')]")).isEmpty ()) {
             throw new AssertionError ("Продукт" + " " + arg0 + " " + "не удален");
         }
+        driver.manage ().timeouts ().implicitlyWait (10, TimeUnit.SECONDS);
     }
 
     @И("закрываем браузер")
