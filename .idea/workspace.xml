@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc4c453b-2252-4641-ad36-79d5cf66b96b" name="Changes" comment="first" />
+    <list default="true" id="bc4c453b-2252-4641-ad36-79d5cf66b96b" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,25 +23,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: ProductPageActionsSteps.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.BD [clean,test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.BD [io.qameta.allure:allure-maven:2.12.0:report].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.BD [io.qameta.allure:allure-maven:2.12.0:serve].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/U_M1D74/Diana/Cucumber&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: ProductPageActionsSteps.executor": "Run",
+    "Maven.BD [clean,test].executor": "Run",
+    "Maven.BD [io.qameta.allure:allure-maven:2.12.0:report].executor": "Run",
+    "Maven.BD [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/U_M1D74/Diana/Cucumber/.idea",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean test" />
@@ -89,6 +91,9 @@
       <workItem from="1712678411315" duration="1535000" />
       <workItem from="1712928987782" duration="113000" />
       <workItem from="1712929772258" duration="12000" />
+      <workItem from="1712939816682" duration="37000" />
+      <workItem from="1712939863538" duration="83000" />
+      <workItem from="1712939954503" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="Cucumber">
       <option name="closed" value="true" />
